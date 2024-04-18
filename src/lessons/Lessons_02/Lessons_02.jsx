@@ -1,14 +1,14 @@
-import Button from "../../components/Button/Button";
-import "./Lessons_02.css";
+// import Button from "../../components/Button/Button";
+import "./style.css";
 
-function Lessons_02() {
+function Lesson_02() {
     return (
         <div className="buttons-container">
-            <Button/>
-            <Button/>
-            <Button/>
+            {/*<Button/>*/}
+            {/*<Button/>*/}
+            {/*<Button/>*/}
         </div>
     )
 }
 
-export default Lessons_02
+export default Lesson_02

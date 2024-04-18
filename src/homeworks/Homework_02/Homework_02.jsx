@@ -1,12 +1,12 @@
-import "./Homework_02.css"
-import ProfileCard from "../../components/ProfileCard/ProfileCard";
+import "./style.css"
+// import ProfileCard from "../../components/ProfileCard/ProfileCard";
 
 function Homework_02() {
     return(
         <div className = "cards-block">
-            <ProfileCard/>
-            <ProfileCard/>
-            <ProfileCard/>
+            {/*<ProfileCard/>*/}
+            {/*<ProfileCard/>*/}
+            {/*<ProfileCard/>*/}
         </div>
     )
 }

@@ -1,4 +1,4 @@
-import "./ProfileCard.css";
+import "./style.css";
 import pirate from "../../assets/images/pirate.jpeg";
 
 function ProfileCard() {
