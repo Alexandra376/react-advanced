@@ -1,9 +1,8 @@
 import "./style.css";
 
-function Button({buttonName = "Get data", isPrimaryButton }) {
-    const buttonClass = `main-button ${isPrimaryButton ? "primary-button" : "secondary-button"}`;
+function Button({name, type, children, className}) {
     return(
-        <button className={buttonClass}>{buttonName}</button>
+        <button className={className} name={name} type={type}>{children}</button>
     )
 }
 
