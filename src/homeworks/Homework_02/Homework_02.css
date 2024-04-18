@@ -1,0 +1,6 @@
+.cards-block {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 40px;
+}
