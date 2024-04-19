@@ -7,10 +7,10 @@ function LoginForm() {
         <form name="submit" className="form-container">
             <span>Login form</span>
             <div className="input-container">
-                <Input name="Login form" label="Email" placeholder="Enter your email" type="email" className="inputLogin" />
+                <Input name="Login form" label="Email" placeholder="Enter your email" type="email" />
                 <Input placeholder="Enter your password" label="Password" type="password" className="inputLogin" />
             </div>
-            <Button type="submit" className="buttonLogin" text="Login"/>
+            <Button type="submit" name="Login"/>
         </form>
     )
 }
