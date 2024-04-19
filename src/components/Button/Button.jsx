@@ -1,8 +1,8 @@
 import "./style.css";
 
-function Button({name, type, children, className}) {
+function Button({name, type, text, className}) {
     return(
-        <button className={className} name={name} type={type}>{children}</button>
+        <button className={className} type={type}>{text}</button>
     )
 }
 
