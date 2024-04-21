@@ -1,0 +1,8 @@
+.feedback{
+    padding: 20px;
+
+    & .icon {
+        align-items: center;
+        display: flex;
+    }
+}

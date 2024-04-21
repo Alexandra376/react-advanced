@@ -1,5 +1,5 @@
 import "./style.css";
-import pirate from "../../assets/images/pirate.jpeg";
+import pirate from "../../shared/assets/images/pirate.jpeg";
 
 function ProfileCard() {
     return(
