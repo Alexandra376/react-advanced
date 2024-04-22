@@ -1,8 +1,8 @@
 import "./style.css";
 import Button from "../Button/Button";
 import { useState } from "react";
-import { LikeIcon } from "../../shared/assets/UI/components/LikeIcon";
-import { DislikeIcon } from "../../shared/assets/UI/components/DislikeIcon";
+import { LikeIcon } from "../../shared/UI/components/LikeIcon";
+import { DislikeIcon } from "../../shared/UI/components/DislikeIcon";
 
 function Feedback() {
     const [like, setLike] = useState(0);
